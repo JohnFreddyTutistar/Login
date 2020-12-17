@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+}
+#cls{
+    font-size: 15px;
+    margin-left: 92%;
+    color: white;
+}
+body{
+    background: linear-gradient(-45deg, #76D7C4, #7FB3D5,#76D7C4);
+}
+a{
+    color: white;
+    font-size: 25px;
+}
+#tabla{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px white;
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+#btnNew{
+    margin-left:50%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css2/style3.css" type="text/css">
+</head>
+<body>
+    <a href="panel.php">volver</a>
+    <h1>Registro de usuario</h1> 
+    <form action="registrar.php" method="POST">
+        <table>
+            <tr>
+                <td>Id:</td>
+                <td><input type="text" name="txtId" id="txtId" placeholder="I######" required></td>
+            </tr>
+            <tr>
+                <td>Usuario:</td>
+                <td><input type="text" name="txtName" id="txtName" placeholder="nombre de usuario" required></td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="password" name="txtPassword" id="txtPassword" placeholder="**********" required></td>
+            </tr>
+            <tr>
+                <td>Correo:</td>
+                <td><input type="text" name="txtEmail" id="txtEmail" placeholder="email@example.com" required></td>
+            </tr>
+            <tr>
+                <td>Tipo: </td>
+                <td><input type="text" name="txtType" id="txtType" placeholder="(a)admin / (u)usuario" required></td>
+            </tr>
+            <tr>
+                <td>Estado:</td>
+                <td><input type="text" name="txtState" id="txtState" placeholder="(1)activo / (0)inactivo" required></td>
+            </tr>
+        </table>
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>

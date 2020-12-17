@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: white
+}
+body{
+    /*background: linear-gradient(-45deg, #76D7C4, #7FB3D5,#76D7C4);*/
+    background-image: url(../img/img1.jpg);
+}
+a{
+    color: white;
+    font-size: 18px;
+    margin-left: 92%;
+    margin-top: -10px;
+}
+#main{
+    width: 100%;
+    display: inline-flex;
+}
+#menu{
+    width: 15%;
+    border: solid 1px black;
+}
+#articulo{
+    width: 85%;
+    border: solid 1px black;
+}
+input[type="button"]{
+    width: 100%;
+}

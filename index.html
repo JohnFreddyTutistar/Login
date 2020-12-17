@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-3.5.0.js" type="text/javascript"></script>
+    <script src="js/login.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <h1>Mundo gamer</h1>
+    <form action="validar.php" class="frmLogin" id="frmLogin" method="POST">
+        <h1>Iniciar sesion</h1>
+        <input type="text" name="txtUser" id="txtUser" placeholder="nombre de usuario">
+        <input type="password" name="txtPassword" id="txtPassword" placeholder="contraseña">
+        <input type="button" value="Entrar" id="btnEntrar">    
+    </form>
+    <div id="msg"></div>
+</body>
+</html>

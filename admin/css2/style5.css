@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(-45deg, #76D7C4, #619cc3,#76D7C4);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(3, 74, 121);
+    text-shadow: -2px -2px 2px rgb(255, 255, 255);
+}
+a{
+    font-size: 25px;
+    color: white;
+}
+form{
+    margin-left: 40%;
+    color: white;
+}
+input[type="submit"]{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+}
